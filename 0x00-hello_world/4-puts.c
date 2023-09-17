@@ -1,6 +1,9 @@
+#include <stdio.h>
 /**
 *main - Entry point
-*Return : 0  (Success)
+* Description: A program that prints a line puts fonction
+*
+*Return
 */
 int main(void)
 {
