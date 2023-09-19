@@ -1,5 +1,7 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - Entry point
  *
@@ -8,24 +10,18 @@
 int main(void)
 {
 int n;
-
-srand(time(0)); /* Seed the random number generator */
-
-n = rand() - RAND_MAX / 2; /* Generate a random number */
-
-printf("%d is ", n); /* Print the random number */
-
+n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("positive\n");
+printf("%i is positive\n", n);
 }
 else if (n < 0)
 {
-printf("negative\n");
+printf("%i is negative\n", n);
 }
 else
 {
-printf("zero\n");
+printf("%i is zero\n", n);
 }
 return (0);
 }
