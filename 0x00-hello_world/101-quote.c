@@ -2,12 +2,8 @@
 /**
 *main - Entry point
 *
-*Description: print piece of art is useful
-* Return: Always 0 ( Success )
+*Description: print and that piece of art is useful
+* Return: 1 (not success)
 */
 int main(void)
 {
-write(2, "and that piece of art is useful" - Dora Korpar, 2015 - 10 - 19\n",
-sizeof("and that piece of art is useful\" - Dora Korpar, 2015 - 10 - 19\n"));
-return (1);
-}
